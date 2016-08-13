@@ -1,0 +1,23 @@
+package sampleprogram;
+
+import java.util.Scanner;
+
+public class Sample1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("shadh");
+		
+int a,b;
+a=1;
+b=2;
+Scanner s=new Scanner(System.in);
+System.out.println("");
+int n=s.nextInt();
+while (a<=b) {
+	System.out.println();
+	
+}
+	}
+
+}

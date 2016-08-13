@@ -1,0 +1,37 @@
+package sampleprogram;
+
+import java.util.Scanner;
+
+public class Sample1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("shadh");
+		
+int a,b;
+a=0;
+b=1;
+
+Scanner s=new Scanner(System.in);
+System.out.println("");
+int n=s.nextInt();
+while (b<=n) {
+	if (n%b==0) {
+		
+		a++;
+		
+	}
+	b++;
+	
+}
+System.out.println(a);
+
+if (a==2) {
+	System.out.println(n +"is a prime no" );
+}
+else 
+{
+	System.out.println(n+"is not prime no");}
+	}
+
+}

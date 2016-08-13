@@ -1,0 +1,20 @@
+package sampleprogram;
+
+public class Sample1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("shadh");
+		int a,b;
+		a=2;
+		b=15;
+while (a<=b) {
+if (a%2==0) {
+	System.out.println(a);
+	
+}
+}
+	
+	}
+
+}
